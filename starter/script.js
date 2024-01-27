@@ -22,7 +22,7 @@ function displayWeather(data) {
   // Display today's weather
   let todayWeather = `<div class='today-weather'>
                         <h1> ${data.city.name}</h1>
-                        <img src="http://openweathermap.org/img/wn/${data.list[0].weather[0].icon}.png" alt="weather icon">
+                        <img src="https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}.png" alt="weather icon">
                         <h3>${dayjs().format('DD/MM/YYYY')}</h3>
                         <p>Temperature: ${data.list[0].main.temp} °C</p>
                         <p>wind: ${data.list[0].wind.speed} m/s</p>
@@ -35,7 +35,7 @@ function displayWeather(data) {
     //8 means 3 hours * 8 = 24 hours = 1 day /8 intervals
    let dayWeather = `<div class='col forecast-day'>
                         <h3>${dayjs(data.list[i].dt_txt).format('DD/MM/YYYY')}</h3>
-                        <img src="http://openweathermap.org/img/wn/${data.list[i].weather[0].icon}.png" alt="weather icon">
+                        <img src="https://openweathermap.org/img/wn/${data.list[i].weather[0].icon}.png" alt="weather icon">
 
                         <p>Temperature: ${data.list[i].main.temp} °C</p>
                         <p>wind: ${data.list[i].wind.speed} m/s</p>
@@ -48,7 +48,7 @@ function displayWeather(data) {
 //function to get city's latitude and longitude
 
 function getCityLatLon(city) {
-  let geocodingApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${myKey}`;
+  let geocodingApiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${myKey}`;
   fetch(geocodingApiUrl)
     .then(response => response.json())
     .then(data => {
