@@ -17,7 +17,8 @@ This is a weather forecast app that allows the user to search for a city and get
 
 
 - fetchweather function is used to fetch the weather data from the api.
-- displayweather function is used to display the weather data on the page,if the fetch is successful.
+  ![screen
+](https://github.com/Lotusniro/Weather-Forecast/blob/main/starter/screenshots/Screenshot%202024-01-27%20at%2010.26.51.png)- displayweather function is used to display the weather data on the page,if the fetch is successful.
 - data list is looped through to get the data for the 5 day forecast.
 - 8 is data points given every 3 hours for 5 days.
 - displayforecast function is used to display the 5 day forecast and current day forecast on the page,if the fetch is successful.
