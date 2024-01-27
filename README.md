@@ -54,10 +54,10 @@ This is a weather forecast app that allows the user to search for a city and get
 MIT License
 
 ## url
-![one
+![
 ](https://github.com/Lotusniro/Weather-Forecast)https://github.com/Lotusniro/Weather-Forecast
 
 
-![two
+![
 ](https://lotusniro.github.io/Weather-Forecast/)https://lotusniro.github.io/Weather-Forecast/
 
