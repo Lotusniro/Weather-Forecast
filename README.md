@@ -56,4 +56,6 @@ MIT License
 ## Links
 ![one
 ](https://github.com/Lotusniro/Weather-Forecast)https://github.com/Lotusniro/Weather-Forecast
+![two
+](https://lotusniro.github.io/Weather-Forecast/)https://lotusniro.github.io/Weather-Forecast/
 
