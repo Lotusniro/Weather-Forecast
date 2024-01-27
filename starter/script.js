@@ -30,7 +30,7 @@ function displayWeather(data) {
                       </div>`;
   todayElement.innerHTML = todayWeather;
 
-  // Display 5-day forecast
+  // Display 5-day forecast$4
   for (let i = 0; i < data.list.length; i += 8) {
     //8 means 3 hours * 8 = 24 hours = 1 day /8 intervals
    let dayWeather = `<div class='col forecast-day'>
